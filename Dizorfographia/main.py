@@ -10,7 +10,7 @@ from bot.database import db_start
 
 
 async def main():
-    bot = Bot(token=getenv('BOT_TOKEN'))
+    bot = Bot('6813276733:AAHSPQTkE9vQCDOwwbbj4eQqbuUDI_QrjyU')
     dp = Dispatcher()
     dp.include_router(router)
 
